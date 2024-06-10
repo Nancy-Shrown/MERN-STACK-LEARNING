@@ -1,0 +1,62 @@
+body
+{
+    background: linear-gradient(106.7deg, rgb(245, 167, 191) -6.2%, rgb(201, 218, 238) 46.4%, rgb(164, 240, 229) 86.4%);
+}
+.box1
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.box2
+{
+    margin-top: 50px;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border-radius: 7px;
+}
+#user
+{
+    height: 15px;
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border: none;
+}
+#pass
+{
+    height: 15px;
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border: none;
+}
+#b1
+{
+    font-size: small;
+    color: grey;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+#b2
+{
+    margin-top: 30px;
+    margin-left: 130px;
+}
+button
+{
+    height: 40px;
+    width: 250px;
+    color: white;
+    background-color:rgb(8 126 164);
+    border: 1px solid black;
+    margin-left: 70px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 30px;
+}
+.line hr
+{
+    width: 300px;
+}

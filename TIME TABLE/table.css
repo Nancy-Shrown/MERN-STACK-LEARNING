@@ -1,0 +1,25 @@
+body
+{
+    background-color: black;
+
+}
+.box1
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.box2
+{
+    margin-top: 90px;
+    margin-left: 90px;
+    height: 280px;
+    width: 550px;
+    background-color: white;
+    border-radius: 7px;
+}
+#b1 th
+{
+    height: 50px;
+    width: 70px;
+}

@@ -1,0 +1,108 @@
+nav img
+{
+    height:40px;
+    width:50px;
+}
+span
+{
+    position: relative;
+    top: -15px;
+    left: 10px;
+}
+input
+{
+    height: 30px;
+    width: 500px;
+    background-color: #DCDCDC;
+    border-radius: 20px;
+    border: 2px solid #DCDCDC;
+    position: relative;
+    top: -15px;
+    left: 30px;
+}
+.navbar
+{
+    margin-left: 620px;
+    font-size: 18px;
+}
+.navbar ul
+{
+    list-style: none;
+}
+.navbar li 
+{
+    color: black;
+    margin-left: 30px;
+    position: relative;
+    top:-62px;
+    display: inline;
+    
+}
+#font
+{
+    font-size: 30px;
+    margin-left: 1050px;
+    position: relative;
+    top:-105px;
+}
+#style
+{
+    font-size: 30px;
+    margin-left: 1100px;
+    position: relative;
+    top:-105px;
+}
+#git
+{
+    font-size: 30px;
+    margin-left: 1150px;
+    position: relative;
+    top:-105px;
+}
+.home img
+{
+    height: 130px;
+    width: 150px;
+    margin-left: 570px;
+    position: relative;
+    top:-60px;
+}
+#react
+{
+    font-size: 50px;
+    margin-left: 530px;
+    top: 30px;
+    letter-spacing: 7px;
+    position: relative;
+    top: -20px;
+}
+p
+{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 4px;
+    position: relative;
+    top: -10px;
+}
+#b1 button
+{
+    height: 40px;
+    width: 130px;
+    color: white;
+    background-color:rgb(8 126 164);
+    border: 1px solid black;
+    margin-left: 480px;
+    border-radius: 25px;
+    border: none;
+}
+#b2 button
+{
+    height: 40px;
+    width: 130px;
+    background-color:white;
+    margin-left: 650px;
+    border: 1px solid black;
+    border-radius: 25px;
+    position: relative;
+   top: -40px;
+}
