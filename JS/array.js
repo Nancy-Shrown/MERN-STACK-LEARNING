@@ -1,6 +1,6 @@
-//PROPERTIES OF OBJECTS AND ARRAYS
+//METHODS OF OBJECTS AND ARRAYS
 
-//object
+//object METHODS
 const obj=
 {
     name:'MIKEY',
@@ -49,21 +49,24 @@ console.log(arr1)
 arr1.pop(10)
 console.log(arr1)
 
-//add element in front of array
+//add element in start of array
 arr1.unshift(0)
 console.log(arr1)
 
-//remove element from front of array
+//remove element from start of array
 arr1.shift(0)
 console.log(arr1)
 
+//const arr2= arr1.splice(//index number at which new number to be added,//delete number after that index,//numbers you want to add in array)
+const arr2= arr1.splice(4,2,56,59)
+console.log(arr1)
 
+//want to fetch numbers from array
+//slice will give new array ,it creates new array from parent array
+//const arr2= arr1.splice(//index number from which number to fetch,index number upto which array to be fecth)
+const arr3= arr1.slice(2,5)
+console.log(arr3)
 
-
-
-
-
-
-
-
-
+//concat
+const arr4=arr.concat(arr3)
+console.log(arr4)
