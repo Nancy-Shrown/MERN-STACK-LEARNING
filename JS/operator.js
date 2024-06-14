@@ -66,9 +66,30 @@ if(k ==12 || l == 9)
 
     }
 
-// TERNARY OPERATOR
-const t= a ?? 10
+// ?? OPERATOR
+const t= a ?? 10  //if value of a is not assigned then a dummy value will be assigned like 10 in this statement
 console.log(t)
+
+//TERNARY OPERATOR/conditions
+a==3 ? console.log("TRUE") : console.log("FALSE")
+//(IF CONDITION) ? STATEMENT IF TRUE: STATEMENT IF FALSE
+
+a==4||b==5 ? console.log("TRUE") : console.log("FALSE")
+
+a==5 && b==5 ? console.log("TRUE") :  b==1 ? console.log("FALSE") : console.log("LAST STATEMENT")
+
+//temperal lateral string ` used for dynamic work like we can change state name easily`
+const state="HARYANA"
+const name= `I AM FROM "${state}"`
+console.log(name)
+
+const number= 5659
+const num = number.toString()
+console.log(typeof num)
+
+const numb= 56.5926
+console.log(number.toFixed(2))
+
 
 
 
