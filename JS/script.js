@@ -4,6 +4,7 @@ console.log('Hello World')
 
 //1  var
 var FirstName="GOJO"
+FirstName="YUJI"
 console.log(FirstName)
 
 //2  let

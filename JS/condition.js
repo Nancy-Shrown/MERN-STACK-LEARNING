@@ -11,7 +11,7 @@ if(4==4)
     }
 
     //== only check value not datatype ex- 4=="4"  ----- TRUE
-    //== checks both value and dataype ex-  4==="4"-----FALSE   
+    //=== checks both value and dataype ex-  4==="4"-----FALSE  {4=number,"4"=string}
     
 //elseif
     if(4 === "4")
@@ -26,4 +26,6 @@ if(4==4)
         {
             console.log("DEMO");
         }
+
+
     
