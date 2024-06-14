@@ -87,7 +87,7 @@ const number= 5659
 const num = number.toString()
 console.log(typeof num)
 
-const numb= 56.5926
+const numb= 56.5926547589
 console.log(number.toFixed(2))
 
 
