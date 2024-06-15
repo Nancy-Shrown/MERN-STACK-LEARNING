@@ -1,20 +1,20 @@
 //create object
 const data=
 {
-    name:'JIN',
+    name:"JIN",
     age:25,
-    country:'SOUTH KOREA'
-}
+    country:"SOUTH KOREA"
+};
 console.log(data)
 
 //object inside object
 const obj=
 {
-    name:'JIMIN',
+    name:"JIMIN",
     age:25,
-    country:'SOUTH KOREA',
-    obj1:{name:'JUNGKOOK'}
-}
+    country:"SOUTH KOREA",
+    obj1:{name:"JUNGKOOK"}
+};
 console.log(obj)
 console.log(obj.obj1)
 
@@ -24,5 +24,7 @@ console.log(arr[3])
 
 //ARRAY INSIDE ARRAY
 const arr1=[1,2,[56,59,80],{obj:"HELLO JAPAN"}]
+console.log(arr1[2])
 console.log(arr1[3])
+
 
