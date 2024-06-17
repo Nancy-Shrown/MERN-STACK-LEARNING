@@ -7,12 +7,13 @@ console.log(Array.isArray(arr))
 
 //MAP METHOD -----TRANSFORMS ARRAY
 // ITEM----REPRESENTS ELEMENT OF ARRAY
+//SYNTAX ------ CONST ARRAY_NAME = ARRAY ON WHICH METHOD TO BE APPLIED.MAP((ITEM)=>ITEM*ITEM)
 const arr1 =arr.map((item)=> item*item)
 const arr2 =arr.map((item)=> item+10)
 console.log(arr,'ARRAY',arr1)
 console.log(arr,'ARRAY',arr2)
 
-//const array3=array.map((item,index)=> index ==0 * && item *item)            DOUBT
+//const array3=array.map((item,index)=> index ==0 * && item *item)        ???? DOUBT
 //console.log(array,'ARRAY',array3)
 
 //FILTER METHOD -----FILTER ITEM //USED WIDELY
@@ -28,7 +29,19 @@ console.log(arr4)
 const arr5=arr.find((item) =>item%2==0)
 console.log(arr5)
 
+//TERNARY
+const arr6= arr4? arr1: arr3
+console.log(arr6)
 
+//PRACTISE QUESTION 
+const ar=[10,20,22,11,55,77,22]
+const ar1 =ar.map((item)=>(item-5)+25) //first item-5 then item +25
+console.log(ar,'ARRAY -5 + 25',ar1)
 
+//CHECK IF ELEMENTS IN ARRAY ARE ODD OR NOT
+const ar3=ar1.some((item) =>item%2!=0)
+console.log(ar3)
 
-
+//TO EXTRACT ODD 
+const ar4=ar1.filter((item) => item%2!=0)
+console.log(ar4)
