@@ -72,23 +72,24 @@ console.log(t)
 
 //TERNARY OPERATOR/conditions
 a==3 ? console.log("TRUE") : console.log("FALSE")
-//(IF CONDITION) ? STATEMENT IF TRUE: STATEMENT IF FALSE
+//(IF CONDITION) ? CONDITION SATISIFIED>> TRUE: ELSE FALSE
 
 a==4||b==5 ? console.log("TRUE") : console.log("FALSE")
+//(IF a==4 or b==5 >> CONDITION SATISIFIED>> TRUE: ELSE FALSE)
 
 a==5 && b==5 ? console.log("TRUE") :  b==1 ? console.log("FALSE") : console.log("LAST STATEMENT")
 
 //temperal lateral string ` used for dynamic work like we can change state name easily`
-const state="HARYANA"
-const name= `I AM FROM "${state}"`
+const state="HARYANA" //dynamic value easily be changed
+const name= `I AM FROM "${state}"` //here the change will be clearly visible
 console.log(name)
 
 const number= 5659
-const num = number.toString()
+const num = number.toString()//change number to string datatype
 console.log(typeof num)
 
 const numb= 56.5926547589
-console.log(number.toFixed(2))
+console.log(numb.toFixed(2)) //fixes value after decimal
 
 
 
