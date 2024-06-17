@@ -19,7 +19,7 @@ function demo1(x,y)//parameters //PARAMETERISED FUNCTION
 demo1(5,9)//arguments
 
 //2ND WAY ARROW METHOD
-const demo2 = (s,t) => //ARRAOW FUNCTION
+const demo2 = (s,t) => //ARROW
     {
         const q=s
         const r=t
@@ -32,7 +32,7 @@ const demo3 = (o,p) =>
         const m=o;
         const n=p;
         const d=m+n;
-        return d; //return keyword //returns value of d 
+        return d; //return keyword //returns value of d
     };
     const d=demo3(5,5)
     const e=d
