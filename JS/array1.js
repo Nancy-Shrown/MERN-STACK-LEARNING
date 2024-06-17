@@ -13,8 +13,8 @@ const arr2 =arr.map((item)=> item+10)
 console.log(arr,'ARRAY',arr1)
 console.log(arr,'ARRAY',arr2)
 
-//const array3=array.map((item,index)=> index ==0 * && item *item)        ???? DOUBT
-//console.log(array,'ARRAY',array3)
+const array=arr.map((item,index)=> index == 0 && item *item)//CHECKS IF INDEX==0>>ITEM*ITEM>>RETURNS VALUE TRUE ELSE FALSE
+console.log(arr,'ARRAY  INDEX',array)
 
 //FILTER METHOD -----FILTER ITEM //USED WIDELY
 const arr3=arr.filter((item) => item%2==0)
