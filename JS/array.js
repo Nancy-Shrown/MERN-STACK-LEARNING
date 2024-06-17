@@ -70,3 +70,12 @@ console.log(arr3)
 //concat
 const arr4=arr.concat(arr3)
 console.log(arr4)
+
+
+
+
+
+
+
+
+

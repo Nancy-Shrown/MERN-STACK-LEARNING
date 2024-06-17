@@ -32,7 +32,7 @@ const demo3 = (o,p) =>
         const m=o;
         const n=p;
         const d=m+n;
-        return d;
+        return d; //return keyword //returns value of d
     };
     const d=demo3(5,5)
     const e=d
