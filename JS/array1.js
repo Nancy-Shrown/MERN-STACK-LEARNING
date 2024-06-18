@@ -5,7 +5,7 @@ const arr =[2,3,4,15,6]
 //TO CHECK DATAYPE ONLY FOR ARRAY
 console.log(Array.isArray(arr))
 
-//MAP METHOD -----TRANSFORMS ARRAY
+//1 MAP METHOD -----TRANSFORMS ARRAY
 // ITEM----REPRESENTS ELEMENT OF ARRAY
 //SYNTAX ------ CONST ARRAY_NAME = ARRAY ON WHICH METHOD TO BE APPLIED.MAP((ITEM)=>ITEM*ITEM)
 const arr1 =arr.map((item)=> item*item)
@@ -16,16 +16,16 @@ console.log(arr,'ARRAY',arr2)
 const array=arr.map((item,index)=> index == 0 && item *item)//CHECKS IF INDEX==0>>ITEM*ITEM>>RETURNS VALUE TRUE ELSE FALSE
 console.log(arr,'ARRAY  INDEX',array)
 
-//FILTER METHOD -----FILTER ITEM //USED WIDELY
+//2 FILTER METHOD -----FILTER ITEM //USED WIDELY
 const arr3=arr.filter((item) => item%2==0)
 console.log(arr3)
 
-//SOME METHOD----GIVE VALUE IN FORM OF TRUE OR FALSE
+//3 SOME METHOD----GIVE VALUE IN FORM OF TRUE OR FALSE
 //if condition true then true else false
 const arr4=arr.some((item) =>item%2==0) //IT TELLS THAT ARRAY CONTAIN EVEN NUMBER BY GIVING TRUE RESULT
 console.log(arr4)
 
-//FIND METHOD------GIVES ONLY SINGLE RESULT //  FOLLOWS FIFO 
+//4 FIND METHOD------GIVES ONLY SINGLE RESULT //  FOLLOWS FIFO 
 const arr5=arr.find((item) =>item%2==0)
 console.log(arr5)
 
