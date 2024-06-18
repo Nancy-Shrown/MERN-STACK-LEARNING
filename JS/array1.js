@@ -45,3 +45,38 @@ console.log(ar3)
 //TO EXTRACT ODD 
 const ar4=ar1.filter((item) => item%2!=0)
 console.log(ar4)
+
+//NEW ARRAY
+const a=[30,25,2,15,200,141,167]
+//TO FIND INDEX  NUMBER OF FIRST EVEN NUMBER  
+const a1=a.findIndex((item)=> item%2==0)   //findIndex METHOD IS USED  >>GIVES INDEX  NUMBER
+console.log(a1)
+
+//TO FIND LAST EVEN NUMBER
+const a2=a.findLast((item)=> item%2==0)    //findLast METHOD IS USED   >>GIVES ELEMENT
+console.log(a2)
+
+//TO FIND INDEX NUMBER OF LAST EVEN NUMBER
+const a3=a.findLastIndex((item)=> item%2==0)    //findLastIndex METHOD IS USED   >>GIVES INDEX NUMBER
+console.log(a3)
+
+//NEW ARRAY
+const arrr=[25,[2,15],200,[141,167]];  //NESTED ARRAY
+const arrr1= arrr.flat() //FLAT METHOD IS USED TO FLAT THE NESTED ARRAY INTO SINGLE ARRAY
+console.log(arrr1)
+
+//SORTING ARRAY
+const sort=['Cars','Plane','Bus','Ship'] //SORT METHOD IS USED TO SORT THE ARRAY ALPHABETICALLY
+const sort1= sort.sort()
+console.log(sort1)
+
+//REDUCE METHOD //FOR INTERVIEW QUESTION //NOT RARELY USED
+const b=[1,2,3,4,5,6,7]
+const b1=b.reduce((acc,curr)=>  //currrent Value= elements
+     { 
+        console.log(acc,'acccurr',curr)  //WITHOUT CURLY BRACES NO CONSOLE METHOD + RETURN KEYWORD CAN BE USED INSIDE ARRAY
+        return acc+curr           //accumulator saves ur end result ,we can give default value to it
+    },0)    // DEFAULT VALUE IS SET HERE (EX--0)
+console.log(b1)
+
+

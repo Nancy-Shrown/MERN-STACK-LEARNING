@@ -23,4 +23,23 @@ const convertText1 = lName.toUpperCase()
 console.log(lName.substr(2,5))
 console.log(convertText1)
 
+//CONVERT STRING TO ARRAY
+const a='MICKEY'
+console.log(a.split())  //SPLIT METHOD IS USED
+
+//CONVERT ARRAY TO STRING
+const arr= [1,2,3,4,5,6,7]
+const arr1=arr.join() //JOON METHOD IS USED
+const arr2=arr.join(' and ')
+console.log(arr1)
+console.log(arr2)
+
+const arr3= arr.fill(' HELLO ')  //to fill array with string 
+console.log(arr3)
+
+const arr4= arr.fill(' HELLO ',2,5) //to fill array with string with fix index number (ex-- 2,3,4 == hello  0,1,5= element of index)
+console.log(arr4)
+
+
+
 
