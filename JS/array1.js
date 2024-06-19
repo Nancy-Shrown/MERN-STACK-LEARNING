@@ -71,7 +71,7 @@ const sort1= sort.sort()
 console.log(sort1)
 
 const sort2=['Cars','Plane','bus','Ship'] //SORT METHOD IS USED TO SORT THE ARRAY ALPHABETICALLY
-const sort3= sort.sort()
+const sort3= sort2.sort()
 console.log(sort3) //output = CARS,PLANE,SHIP,bus //b in bus is in small letter
 
 //REDUCE METHOD //FOR INTERVIEW QUESTION //NOT RARELY USED
