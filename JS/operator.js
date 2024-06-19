@@ -91,7 +91,72 @@ console.log(typeof num)
 const numb= 56.5926547589
 console.log(numb.toFixed(2)) //fixes value after decimal
 
+//NOT OPERATOR
+const ab=23
+const cd=5
+if(ab!=cd)                   // != CHECKS VALUE (==)     !== CHECKS VALUE NOT DATATYPE(===)
+    {
+        console.log('THIS IS TRUE')   //OUTPUT //23!=5
+    }
+else
+    { 
+        console.log('THIS IS FALSE')
+    }
 
+const ef=23
+const gh="23"
+if(ef!==gh)     //23!=="23"  //  23=NUMBER,"23"=STRING
+    {
+        console.log('THIS IS TRUE')    // OUTPUT 
+    }
+else
+    { 
+        console.log('THIS IS FALSE')
+    }
 
+//CHECKPOINT
+const uu="23" 
+if(uu!=undefined && uu!=null)
+    {
+        console.log('THIS IS TRUE')   //OUTPUT
+    }
+else
+    { 
+        console.log('THIS IS FALSE')
+    }
 
+//DATE 
+const date= new Date()
+console.log(date)
 
+//YEAR
+const forGetFullYear= date.getFullYear()
+console.log(forGetFullYear)
+
+//MONTH
+const forGetMonth= date.getMonth()   // 0-11 MONTHS
+console.log(forGetMonth)
+
+//CURRENT DATE
+const forGetDate= date.getDate()
+console.log(forGetDate)
+
+//CURRENT DAY
+const forGetDay= date.getDay()  //0-6 DAYS //SUNDAY START-0 INDEX
+console.log(forGetDay)
+
+//HOUR
+const forGetHour= date.getHours()  //0-23 HOURS
+console.log(forGetHour)
+
+//MINUTES
+const forGetMinute= date.getMinutes()  
+console.log(forGetMinute)
+
+//SECONDS
+const forGetSecond= date.getSeconds()  
+console.log(forGetSecond)
+
+//Milliseconds
+const forGetMilliSecond= date.getMilliseconds()  
+console.log(forGetMilliSecond)
