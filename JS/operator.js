@@ -160,3 +160,7 @@ console.log(forGetSecond)
 //Milliseconds
 const forGetMilliSecond= date.getMilliseconds()  
 console.log(forGetMilliSecond)
+
+//GETTIME
+const forGetTime= date.getTime() //1 JANUARY 1970 //MILLISECONDS--OUTPUT  
+console.log(forGetTime)

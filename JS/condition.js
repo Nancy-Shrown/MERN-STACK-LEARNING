@@ -27,5 +27,48 @@ if(4==4)
             console.log("DEMO");
         }
 
+//FUNCTION SWITCH STATEMENT
+function getDayOfMonth(dayNum)
+{
+    let dayName;
+    switch(dayNum)                           //switch(condition)
+    {                                        //{ case 0: satement}
+        case 0:
+            dayName="SUNDAY";
+        break;
+
+        case 1:
+            dayName="MONDAY";
+        break;
+
+        case 2:
+            dayName="TUESDAY";
+        break;
+
+        case 3:
+            dayName="WEDNESDAY";
+        break;
+
+        case 4:
+            dayName="THURSDAY";
+        break;
+
+        case 5:
+            dayName="FRIDAY";
+        break;
+
+        case 6:
+            dayName="SATURDAY";
+        break;
+
+        default:
+            dayName="INVALID DAY NUMBER"
+    }
+    return dayName
+}
+console.log(getDayOfMonth(0))
+console.log(getDayOfMonth(4))
+console.log(getDayOfMonth(6))
+console.log(getDayOfMonth(8))
 
     
