@@ -13,7 +13,7 @@ const arr2 =arr.map((item)=> item+10)
 console.log(arr,'ARRAY',arr1)
 console.log(arr,'ARRAY',arr2)
 
-const array=arr.map((item,index)=> index == 0 && item *item)//CHECKS IF INDEX==0>>ITEM*ITEM>>RETURNS VALUE TRUE ELSE FALSE
+const array=arr.map((item,index)=> index == 0 && item*item)//CHECKS IF INDEX==0>>ITEM*ITEM>>RETURNS VALUE TRUE ELSE FALSE
 console.log(arr,'ARRAY  INDEX',array)
 
 //2 FILTER METHOD -----FILTER ITEM //USED WIDELY
@@ -69,6 +69,10 @@ console.log(arrr1)
 const sort=['Cars','Plane','Bus','Ship'] //SORT METHOD IS USED TO SORT THE ARRAY ALPHABETICALLY
 const sort1= sort.sort()
 console.log(sort1)
+
+const sort2=['Cars','Plane','bus','Ship'] //SORT METHOD IS USED TO SORT THE ARRAY ALPHABETICALLY
+const sort3= sort.sort()
+console.log(sort3) //output = CARS,PLANE,SHIP,bus //b in bus is in small letter
 
 //REDUCE METHOD //FOR INTERVIEW QUESTION //NOT RARELY USED
 const b=[1,2,3,4,5,6,7]
