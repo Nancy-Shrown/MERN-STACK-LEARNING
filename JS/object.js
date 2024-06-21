@@ -27,4 +27,6 @@ const arr1=[1,2,[56,59,80],{obj:"HELLO JAPAN"}]
 console.log(arr1[2])
 console.log(arr1[3])
 
-
+const obj22={}
+const obj23={}
+console.log(obj22==obj23)  //FALSE

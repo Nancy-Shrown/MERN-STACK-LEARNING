@@ -38,3 +38,26 @@ let c=21;   //OUTPUT= ERROR  //SAME IN CASE OF CONST
 
 console.log(d)
 var d=21;  // THIS IS CALLED HOISTRING   //OUTPUT= UNDEFINED
+
+
+//OBJECT
+const student={
+    name:"AMIT",
+    city:"MOHALI"
+}
+const user=student.name;
+console.log(user)  //AMIT
+
+const {name: userr}= student;
+console.log(userr)  //AMIT
+
+const {name:user1="KARAN"}= student;
+console.log(user1) //AMIT
+
+const {naam:user2="KARAN"}=student;  //DESTRUCTING OBJECT
+console.log(user2) //KARAN
+
+
+
+
+

@@ -50,7 +50,11 @@ const demo3 = (o,p) =>
     const d=demo3(5,5)
     const e=d
     console.log(e)
-
+    
+//IN ARROW FUNCTION
+/*const sum=(a,b)=>a+b
+  console.log(sum)          //BY DEFAULT RETURN VALUES
+  */
 
 
 
