@@ -18,6 +18,16 @@ function demo1(x,y)//parameters //PARAMETERISED FUNCTION
 }
 demo1(5,9)//arguments
 
+//IT CAN BE CALLED BEFORE DECLARING IT
+/*
+EX-
+CONSOLE.LOG(SUM(4,5)
+FUNCTION SUM(X,Y)
+{  
+    RETURN X+Y
+}
+*/
+
 //2ND WAY ARROW METHOD
 const demo2 = (s,t) => //ARROW
     {
@@ -26,6 +36,9 @@ const demo2 = (s,t) => //ARROW
         console.log(q-r)
     };
 demo2(59,56)
+
+//IT CAN BE NOT CALLED BEFORE DECLARING IT 
+
 
 const demo3 = (o,p) =>
     {
