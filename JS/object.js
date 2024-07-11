@@ -30,3 +30,6 @@ console.log(arr1[3])
 const obj22={}
 const obj23={}
 console.log(obj22==obj23)  //FALSE
+
+
+//npm i -g create-react-app 
